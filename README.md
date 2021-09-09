@@ -1,4 +1,4 @@
-# Fantasy Premier League Email app
+# Fantasy Premier League app
 
 ## Table of contents
 
