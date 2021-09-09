@@ -4,7 +4,7 @@ const config        = require('../config.json');
 // create transporter object with smtp server details
 const transporter = nodemailer.createTransport({
     host: config.emailHost,
-    port: 587,
+    port: config.emailPort,
     auth: {
         user: config.emailAddress,
         pass: config.emailPassword
@@ -20,7 +20,5 @@ async function sendEmail (to, subject, text) {
         text: text
     });
 }
-
-sendEmail('amitchell@ctatax.uk.com', 'xubuntu test', 'xubuntu text');
 
 module.exports.sendEmail = sendEmail;
