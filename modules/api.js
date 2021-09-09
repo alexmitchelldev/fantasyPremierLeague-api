@@ -16,6 +16,4 @@ async function getLeague() {
   return league;
 }
 
-getLeague();
-
 module.exports.getLeague = getLeague;
