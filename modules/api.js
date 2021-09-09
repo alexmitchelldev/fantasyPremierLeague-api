@@ -1,5 +1,6 @@
-const rp = require('request-promise');
 const config = require('../config.json');
+const rp = require('request-promise');
+
 
 //Sets URL to league variable
 const leagueURL = {
@@ -12,7 +13,6 @@ async function getLeague() {
   let league = await rp(leagueURL).then(league => {
     return league.standings.results;
   });
-  console.log(league);
   return league;
 }
 
