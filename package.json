@@ -2,5 +2,22 @@
   "dependencies": {
     "nodemailer": "^6.6.3",
     "request-promise": "^4.2.6"
-  }
+  },
+  "name": "fantasypremierleague-api",
+  "description": "## Table of contents",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexmitchelldev/fantasyPremierLeagueEmail.git"
+  },
+  "author": "alexmitchelldev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexmitchelldev/fantasyPremierLeagueEmail/issues"
+  },
+  "homepage": "https://github.com/alexmitchelldev/fantasyPremierLeagueEmail#readme"
 }
