@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "config.json": "^0.0.4",
     "nodemailer": "^6.6.3",
     "request-promise": "^4.2.6"
   },
