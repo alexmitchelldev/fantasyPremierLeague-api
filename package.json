@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "nodemailer": "^6.6.3",
+    "request-promise": "^4.2.6"
+  }
+}
