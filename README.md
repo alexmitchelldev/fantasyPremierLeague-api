@@ -1,4 +1,4 @@
-# Fantasy Premier League app
+# fantasyPremierLeague-api
 
 ## Table of contents
 
@@ -6,4 +6,4 @@
 
 ## Introduction
 
-> This app works with the fantasy premier league API to pull data specific to leagues with the option to then email the data.
+> Unofficial API for interacting with Fantasy Premier League.
