@@ -10,10 +10,7 @@ const leagueURL = {
 
 //Fetches specific league from API
 async function getLeague() {
-  let league = await rp(leagueURL).then(league => {
-    return league.standings.results;
-  });
-  return league;
+  return await rp(leagueURL);
 }
 
 module.exports.getLeague = getLeague;
