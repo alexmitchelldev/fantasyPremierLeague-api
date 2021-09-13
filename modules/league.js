@@ -1,6 +1,9 @@
 class fplLeague {
     constructor (league) {
-        this._league = league;
+        this._league = league.standings.results;
+        this._leagueName = league.league.name;
+        this._welcomeMessage = '';
+        this._closingMessage = '';
         this._negativeQuotes = [
             `The fans are singing - 'He's getting sacked in the morning'. ${this.lowestManagerThisWeek} is under serious pressure here.`,
             `The ${this.randomPaper} has reported ${this.lowestManagerThisWeek} was partying all weekend and missed last ${this.randomWeekday}'s training, the players aren't happy.`,
@@ -149,6 +152,10 @@ class fplLeague {
         }
 
         return formattedLeagueTable;
+    }
+
+    get leagueName () {
+        return this._leagueName;
     }
 
     get highestManagerTotal () {
